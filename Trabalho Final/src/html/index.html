@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/site-name-h1-style.css">
+  <link rel="stylesheet" href="../css/gerenic-style.css">
+  <link rel="stylesheet" href="../css/nav-style.css">
+  <link rel="stylesheet" href="../css/nav-dropdown-menu-style.css">
+  <link rel="stylesheet" href="../css/section-computadores-style.css">
+  <link rel="stylesheet" href="../css/section-processadores-style.css">
+  <link rel="stylesheet" href="../css/modal-style.css">
+  <link rel="stylesheet" href="../css/section-memorias-style.css">
+  <link rel="stylesheet" href="../css/section-usuarios-style.css">
+  <link rel="stylesheet" href="../css/footer-style.css">
+  <title>Computação</title>
+</head>
+
+<body>
+  <header>
+    <h1>INTRODUÇÃO COMPUTAÇÃO</h1>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <a href="#computadores">COMPUTADORES</a>
+          </button>
+          <div class="dropdown-content">
+            <a href="./computadores.html#sessao-computadores">Sessão computadores</a>
+            <a href="./computadores.html#pre50">Pré-50</a>
+            <a href="./computadores.html#anos50">Anos 50</a>
+            <a href="./computadores.html#anos60">Anos 60</a>
+            <a href="./computadores.html#anos70">Anos 70</a>
+            <a href="./computadores.html#anos80">Anos 80</a>
+            <a href="./computadores.html#anos90">Anos 90</a>
+            <a href="./computadores.html#anos2000">Anos 2000</a>
+            <a href="./computadores.html#anos2010">Anos 2010</a>
+            <a href="./computadores.html#anosatuais">Anos Atuais</a>
+            <a href="./computadores.html#referencias">Referências</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="#processadores">PROCESSADORES</a></li>
+      <li><a href="#memorias">MEMÓRIAS</a></li>
+      <li><a href="#usuarios">USUÁRIOS</a></li>
+      <li><a href="#contato">CONTATO</a></li>
+    </ul>
+  </nav>
+  <section id="computadores">
+    <h2>COMPUTADORES</h2>
+
+    <div class="container">
+
+      <div class="container-slides">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+        <a href="./computadores.html#pre50">
+          <div class="mySlides">
+            <img src="../img/MARK-1.png">
+            <div class="numbertext">Pré-50</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anos50">
+          <div class="mySlides">
+            <img src="../img/DEC-PDP-8.png">
+            <div class="numbertext">Anos 50</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anos60">
+          <div class="mySlides">
+            <img src="../img/IBM-701.png">
+            <div class="numbertext">Anos 60</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anos70">
+          <div class="mySlides">
+            <img src="../img/datapointer-2200.png">
+            <div class="numbertext">Anos 70</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anos80">
+          <div class="mySlides">
+            <img src="../img/commodore-64.png">
+            <div class="numbertext">Anos 80</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anos90">
+          <div class="mySlides">
+            <img src="../img/computador-1990.jpg">
+            <div class="numbertext">Anos 90</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anos2000">
+          <div class="mySlides">
+            <img src="../img/computador-2000.jpg">
+            <div class="numbertext">Anos 2000</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anos2010">
+          <div class="mySlides">
+            <img src="../img/computador-2010.jpg">
+            <div class="numbertext">Anos 2010</div>
+          </div>
+        </a>
+
+        <a href="./computadores.html#anosatuais">
+          <div class="mySlides">
+            <img src="../img/computador-atual.jpg">
+            <div class="numbertext">Anos atuais</div>
+          </div>
+        </a>
+
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="processadores">
+    <h2>PROCESSADORES</h2>
+
+    <div class="processadores-cards">
+      <div class="cards2">
+        <button id="modalBtn" class="button"><img src="../img/Intel-semi-chip.jpg" alt="processador intel"></button>
+        <div class="background-card2">
+          <h3>INTEL</h3>
+        </div>
+      </div>
+
+      <div class="cards2">
+        <button id="modalBtn2" class="button"><img src="../img/amd.jpg" alt="processador amd"></button>
+        <div class="background-card2">
+          <h3>AMD</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="simpleModal" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn">❌</span>
+          <h2>Intel</h2>
+        </div>
+        <div class="modal-body">
+          <h3>Início</h3>
+          <p>Este é um guia de processadores para leigos. Ensinaremos como escolher um processador da atual geração. O
+            guia também servirá para gerações passadas. Explicaremos passo a passo.
+          </p>
+
+          <h4>Nomenclatura</h4>
+          <p>Para começarmos, você deve analisar o conjunto de fatores para que seja possível fazer uma boa compra ou
+            saber sobre os processadores. Mas o principal a ser olhado, é o nome do processador. A identificação da CPU
+            pode ajudar a não fazer uma má compra e claro, quanto maior essa numeração, mais caro é.
+          </p>
+
+          <p>
+            Processadores da linha core tem 4 vertentes: a linha i3, i5, i7 e i9 Quanto maior esse número mais robusto e
+            mais caro será o processador.
+          </p>
+
+          <p>
+            Nas nomenclaturas têm as numerações. As numerações servem para dizer às gerações, assim como tem a própria
+            identificação da geração. Por exemplo: 12th geração i5-12600HX. O 12600 indica o modelo e a geração do
+            processador. E o HX é a plataforma. Há gerações que não possuem essa identificação. Em processadores de
+            notebook, em vez de ser HX, será U, UE, P etc.
+          </p>
+
+          <p>
+            E nos processadores para computadores, 2 modelos não possuem interface gráfica (ele não possui vídeo
+            integrado
+            na onboard). Teria de comprar uma placa de vídeo. Que são versões que possuem F e KF no final da
+            nomenclatura.
+          </p>
+
+          <h4>Modelos</h4>
+
+          <p>Como explicado no tópico anterior, há 5 variações de modelos da versão CORE (que recomendo bastante se quer
+            lidar com processadores potentes e/ou custo benefício).
+          </p>
+
+          <p>
+            i3 - é a linha de entrada. A linha recomendada para economia e bons desempenhos.
+            i5 - processadores multi-tarefas com bons desempenhos para jogos e linha empresarial, ótimo preço e até 12
+            núcleos.
+            i7- linha intermediária, com 14 núcleos que visa segurança, alto desempenho em jogos de alta qualidade e
+            multitarefas.
+            i9 - top de linha, com 16 núcleos, vídeo ininterrupto de 4K Ultra HD, jogabilidade robusta e desempenho
+            multitarefas.
+          </p>
+
+          <h4>Desempenho</h4>
+
+          <table>
+            <thead>
+              <th></th>
+              <th>Intel Core i9</th>
+              <th>Intel Core i9</th>
+              <th>Intel Core i9</th>
+              <th>Intel Core i9</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Frequência turbo máxima [GHz]</td>
+                <td>Até 5,2</td>
+                <td>Até 5,0</td>
+                <td>Até 4,9</td>
+                <td>Até 4.4</td>
+              </tr>
+              <tr>
+                <td>Frequência base de núcleo eficiente [GHz]</td>
+                <td>Até 3,2</td>
+                <td>Até 3,6</td>
+                <td>Até 3,7</td>
+                <td>Até 3,5</td>
+              </tr>
+              <tr>
+                <td>Núcleos dos processadores</td>
+                <td>16</td>
+                <td>12</td>
+                <td>10</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Total de threads do processador</td>
+                <td>24</td>
+                <td>20</td>
+                <td>16 ou 12</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>Cache L3 [MB]</td>
+                <td>30</td>
+                <td>25</td>
+                <td>20 ou 18</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>Cache L2 [MB]</td>
+                <td>14</td>
+                <td>12</td>
+                <td>9,5 ou 7,5</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Velocidade máxima da memória</td>
+                <td>
+                  DDR5 4800
+                </td>
+                <td>
+                  DDR5 4800
+                </td>
+                <td>
+                  DDR5 4800
+                </td>
+                <td>
+                  DDR5 4800
+                </td>
+              <tr>
+                <td>
+                  DDR4 3200
+                </td>
+                <td>
+                  DDR4 3200
+                </td>
+                <td>
+                  DDR4 3200
+                </td>
+                <td>
+                  DDR4 3200
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <p>Agora irei explicar cada tópico de desempenho da tabela acima.</p>
+
+          <p>Frequência turbo máxima [GHz]: É o máximo de potência que o processador irá atingir, mas ele só chega
+            nessas
+            condições com overclock.</p>
+
+          <p>Overclock é um processo de aumentar a potência de algo. Por exemplo: Dá para aumentar o clock de
+            processadores, memórias e gpu’s.</p>
+
+          <p>Frequência base: É a potência normal que o processador irá atingir.</p>
+
+          <p>O núcleo é onde acontecem os processos lógicos do computador. A Unidade lógica e aritmética e Unidade de
+            controle.</p>
+
+          <p>No núcleo há as thread’s também. Que são meio que “filas” de processos e o processador pode ter de 8 a 24
+            threads. Também há os core’s, dual core quer dizer que o processador tem 2 threads para cada núcleo (4
+            núcleos
+            8 threads), e tem quad core que são 4 threads por núcleo.</p>
+
+          <img src="../img/exemplo-multithreading.jpg" alt="núcleos de um processador">
+
+          <p>E pra finalizar. O L3 e L2 são memórias de acesso rápido do processador. O processador possui memórias
+            internas para facilitar a velocidade do processador ao executar suas funções. Caso necessite de mais, ele
+            pode
+            acessar memórias da placa mãe (há placas mães com memórias) e/ou memórias ram.</p>
+
+
+          <h5>Referência</h5>
+          <a href="https://www.intel.com.br/content/www/br/pt/products/details/processors/core.html"
+            target="_blank">Intel Processors details</a>
+          <a href="https://www.mobilebit.com.br/tecnologia/2020/12/15/threads-o-que-sao-para-que-servem-em-um-processador/"
+            target="_blank">Threads para os processadores</a>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="simpleModal2" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn2">❌</span>
+          <h2>amd</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            A AMD é uma empresa dos Estados Unidos que tem sua produção voltada principalmente para processadores. É
+            concorrente direta à Intel, disputando o mercado de microprocessadores pessoais. O processador é o principal
+            componente, responsável pelo controle e processamento de informações.
+          </p>
+
+          <p>
+            A principal linha de processadores da AMD é a Ryzen, concorrentes diretos da linha Core da Intel. Essa
+            linha,
+            no momento, está na quinta geração. Além dessas, temos a Série A, mas básica; a série Athlon, intermediária
+            e
+            a Threadripper, mais poderosos.
+          </p>
+
+          <p>
+            Atualmente, dentre os melhores processadores da linha Ryzen, se encontram:
+          </p>
+
+          <table>
+            <tbody>
+              <tr>
+                <th>AMD Ryzen 5 5600G.</th>
+                <td>Vídeo Integrado: Sim</td>
+                <td>Threads: 12</td>
+                <td>Memória cache: 3 MB (L2) e 16 MB (L3)</td>
+                <td>Versão PCI Express: PCIe 3.0</td>
+                <td>Núcleos: 6</td>
+                <td>Velocidade de Clock: 3.9 GHz</td>
+                <td>Soquete: AM4</td>
+                <td>Padrão TDP: 65 W</td>
+                <td>Prós:</td>
+                <td>Possui vídeo integrado</td>
+                <td>Boa velocidade e memória cache</td>
+                <td>Contras: versão mais antiga do PCI Express.</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Processador AMD Ryzen 7 5800X</th>
+                <td>Vídeo Integrado: Não</td>
+                <td>Threads: 16</td>
+                <td>Memória cache: 512KB (L1), 4MB (L2) e 32 MB (L3)</td>
+                <td>Versão PCI Express: PCIe 4.0</td>
+                <td>Núcleos: 8</td>
+                <td>Velocidade de Clock: 3.9 GHz</td>
+                <td>Soquete: AM4</td>
+                <td>Padrão TDP: 105 W</td>
+                <td>Prós:</td>
+                <td>Boa velocidade e boa memória.</td>
+                <td>Menor custo</td>
+                <td>Contras:</td>
+                <td>TDP alto.</td>
+                <td>Sem vídeo integrado</td>
+              </tr>
+              <tr>
+                <th>Processador AMD Ryzen 9 5950X</th>
+                <td>Vídeo Integrado: Não</td>
+                <td>Threads: 32</td>
+                <td>Memória cache: 8 MB (L2) e 64 MB (L3)</td>
+                <td>Versão PCI Express: PCIe 4.0</td>
+                <td>Núcleos: 16</td>
+                <td>Velocidade de Clock: 3.4 GHz</td>
+                <td>Soquete: AM4</td>
+                <td>Padrão TDP: 105 W</td>
+                <td>Prós:</td>
+                <td>Pode alcançar até 4,9 GHz em boost</td>
+                <td>Boa memória cache</td>
+                <td>Contras:</td>
+                <td>Preço elevado</td>
+                <td>Sem vídeo integrado.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>Núcleos e threads são divisões feitas no microprocessador para deixar o processamento de informações mais
+            dinâmico. Os núcleos são divisões físicas do processador, e as threads são as divisões virtuais do
+            processador.
+          </p>
+
+          <p>
+            A velocidade de clock é a velocidade de processamento de informações.
+          </p>
+
+          <p>
+            A memória cache é a parte de armazenamento do processador. Ela guarda informações que são utilizadas de
+            forma mais frequente.
+          </p>
+
+          <p>
+            A informação do soquete é importante para a compatibilidade com a placa-mãe, onde o processador será
+            instalado.
+          </p>
+
+          <p>
+            O padrão TDP se refere à quantidade de calor gerado por um processador quando está sendo exigido o máximo
+            possível de seu clock.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="memorias">
+    <button id="modalBtn3" class="button">
+      <img src="../img/memoria-ram.png" alt="memória ram">
+    </button>
+    <h2>MEMÓRIAS</h2>
+    <button id="modalBtn4" class="button">
+      <img src="../img/ssd.png" alt="ssd">
+    </button>
+
+    <div id="simpleModal3" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn3">❌</span>
+          <h2>Memória Primária</h2>
+        </div>
+        <div class="modal-body">
+
+          <p>Memória RAM (Memória de Acesso Aleatório) é um dos componentes mais importante de pesquisa quando se está
+            querendo comprar um computador. ela tem a função de ajudar o processador a transportar dados e informações
+            dos programas instalados dentro da máquina. Porém, ela não armazena os arquivos permanentemente.
+          </p>
+
+          <p>Entre os modelos de memórias temos as: DDR4, DDR3 e DDR2 e DDR, sendo essas da mais avançadas e recentes,
+            para as mais básicas e antigas, na mesma ordem.
+          </p>
+
+          <p>Deve-se ser levado em conta, quando se compra uma memória RAM, é sua frequência e sua quantidade de
+            memória, além de outras características.
+          </p>
+
+          <p>Listaremos os modelos e marcas mais vendidos no mercado hoje e suas características :
+          </p>
+
+          <h3>- XPG Spectrix D45G -</h3>
+          <ul>
+            <li>Quantidade: 8Gb</li>
+            <li>Frequência: 3600MHz</li>
+            <li>CL: 18 - 22 - 22</li>
+          </ul>
+
+          <h3>- Memória DDR4 Kingston Fury Beast -</h3>
+          <ul>
+            <li>Quantidade: 8Gb</li>
+            <li>Frequência: 3600MHz</li>
+            <li>CL: 16</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="simpleModal4" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn4">❌</span>
+          <h2>Memória Secundária</h2>
+        </div>
+        <div class="modal-body">
+
+          <p>SSD (Unidade em Estado Sólido) e HD, são dois tipos de memórias com a mesma ideia e diferença da memória
+            Ram. Enquanto na memória RAM são armazenados dados temporários, no HD e no SSD, são guardados dados de longo
+            prazo.
+          </p>
+
+          <p>Pode-se dizer que a principal diferença entre as duas se encontra em como as duas armazenam e acessam os
+            dados. Um Hd é um dispositivo de armazenamento chamado de “tradicional”, pois usa pratos giratórios
+            mecânicos e um cabeçote móvel de leitura para cumprir sua função. Já o SSD são unidades mais recentes e mais
+            rápidas que seu adversário, e armazenam os dados em chips de memória acessíveis instantaneamente.
+          </p>
+
+          <p>> SSD Kingston A400, 480GB, SATA, Leitura de 500MB/s, Gravação de 450MB/s</p>
+          <p>> SSD WD Green PC SN350 480GB, PCIe, NVMe, Leitura: 2400 Mb/s, Escrita: 1650 Mb/s</p>
+          <p>> SSD Kingston NV1 500 GB, M.2 2280 NVMe, Leitura: 2100 MB/s e Gravação: 1700 MB/s</p>
+
+          <p>> HD WD Blue - </p>
+          <ul>
+            <li>Capacidade: 2TB</li>
+            <li>Cache(Mb): 256</li>
+            <li>Taxa de transferência de interface (Máx): 6.0Gb/s</li>
+          </ul>
+
+          <p>> HD Seagate BarraCuda -</p>
+          <ul>
+            <li>Capacidade: 2TB</li>
+            <li>Cache(Mb): 256</li>
+            <li>Taxa de transferência de interface (Máx): 6.0/ 3.0/ 1.5 Gb/s</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="usuarios">
+    <div class="usuarios-content">
+      <div class="users">
+        <button id="modalBtn5" class="button">
+          <img src="../img/user.png" alt="imagem de um usuário">
+        </button>
+        <h3>Usuário 1</h3>
+      </div>
+      <div class="users">
+        <button id="modalBtn6" class="button">
+          <img src="../img/user.png" alt="imagem de um usuário">
+        </button>
+        <h3>Usuário 2</h3>
+      </div>
+      <div class="users">
+        <button id="modalBtn7" class="button">
+          <img src="../img/user.png" alt="imagem de um usuário">
+        </button>
+        <h3>Usuário 3</h3>
+      </div>
+    </div>
+
+    <div id="simpleModal5" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn5">❌</span>
+          <h2>Primeiro Usuário</h2>
+        </div>
+        <div class="modal-body">
+          <div class="modal-card">
+            <h3>Aqui um computador de até R$ 2000,00</h3>
+            <p>Este computador é destinado a pessoas que querem fazer trabalhos da faculdade e usável para o dia a dia
+            </p>
+          </div>
+          <div class="modal-card">
+            <h3>Placa mãe</h3>
+
+            <p>A Placa mãe é como o coração do computador. <strong>Valor: R$ 299,99</strong></p>
+
+            <img src="../img/placa-mae.png" alt="placa mãe computador">
+
+            <p>Links:</p>
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/108502/placa-mae-msi-a320m-a-pro-max-p-amd-am4-m-atx-ddr4?gclid=CjwKCAjwt7SWBhAnEiwAx8ZLanJklGLeeVCS7LyK-ZzqEA-WwTSNUFD-8mpyS94ZiB719unp3IKFahoCPs8QAvD_BwE"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://produto.mercadolivre.com.br/MLB-2685499867-placa-me-msi-a320m-a-pro-max-p-amd-am4-m-atx-ddr4-nova-_JM?matt_tool=83149186&matt_word=&matt_source=google&matt_campaign_id=14303413646&matt_ad_group_id=125984297717&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956536&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=605734187&matt_product_id=MLB2685499867&matt_product_partition_id=1634700637416&matt_target_id=aud-1456438191559:pla-1634700637416&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN1eAG9kRLY-kV5eL8s-NUSmJdNJgVsY28NkBRCbxnz6nGTyZWMQYOIaApe7EALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.carrefour.com.br/placa-mae-msi-a320ma-pro-max-amd-am4-ddr4-ryzen-matx-a320-mp926767383/p?utm_medium=sem&utm_source=google_pla_3p&utm_campaign=top20gmv&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0eGqVbVlQ5LPCpfqrj6qGVCHsYPHHarL2exL9hpiR6fxytcWxCTUwaAktBEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-card">
+            <h3>Processador</h3>
+            <p>O <strong>processador</strong> é um AMD de entrada, ótimo para usuários comuns. <strong>Valor: R$
+                349,99</strong> </p>
+
+            <img src="../img/processador-user1.png" alt="Processador para computador AMD">
+
+            <p>Links: </p>
+            <ul>
+              <li>
+                <a href="https://www.terabyteshop.com.br/produto/20052/processador-amd-athlon-3000g-35ghz-2-cores-4-threads-4mb-cache-am4-com-video-integrado-sem-cooler-sem-caixa-yd3000c6m20fh?gclid=CjwKCAjwt7SWBhAnEiwAx8ZLajlWwfYQBS4E37OvG1n2NIkR2vasYQSr1Vf5YBcw0CNURW3Q0ltIohoCgNYQAvD_BwE"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pichau.com.br/processador-amd-athlon-3000g-2-core-4-threads-3-5ghz-cache-5mb-am4-yd3000c6m2ofh-oem?gclid=CjwKCAjwt7SWBhAnEiwAx8ZLapX379NVlXr2qXEKRlItUewbQ8MJTrgyW7mjfkDZU5VylTuZ6B3d2hoCbTQQAvD_BwE"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com.br/Processador-AMD-Athlon-3000G-3-5GHz/dp/B0815JGFQ8/ref=asc_df_B0815JGFQ8/?tag=googleshopp00-20&linkCode=df0&hvadid=379787216837&hvpos=&hvnetw=g&hvrand=5905872118864719659&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20090&hvtargid=pla-844737564923&psc=1"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Memória Ram</h3>
+            <p>Essa memória é uma das melhores em custo benefício. Possui uma alta taxa de MHz, 8GB de espaço, por um
+              preço baixo. <strong>Valor: R$ 219,99</strong></p>
+
+            <img src="../img/memoria-ram-usuario.png" alt="Memória ram">
+
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/229176/memoria-corsair-vengeance-lpx-8gb-3200mhz-ddr4-cl16-preta-cmk8gx4m1e3200c16"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pichau.com.br/memoria-corsair-vengeance-lpx-8gb-1x8gb-ddr4-3200mhz-c16-preto-cmk8gx4m1e3200c16"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.magazineluiza.com.br/memoria-corsair-vengeance-lpx-8gb-3200mhz-ddr4-cl16-preta-cmk8gx4m1e3200c16/p/dgegj0da85/in/mram/"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>SSD</h3>
+            <p>Um SSD com pouco espaço, mas ótimo para desempenho, pois é mais rápido que um HD <strong>Valor: R$
+                169,99</strong></p>
+
+            <img src="../img/ssd-usuario.png" alt="ssd">
+
+            <ul>
+              <li>
+                <a href="https://www.amazon.com.br/SSD-SATA3-240GB-Kingston-SA400S37/dp/B01N5IB20Q/ref=asc_df_B01N5IB20Q/?tag=googleshopp00-20&linkCode=df0&hvadid=379728522226&hvpos=&hvnetw=g&hvrand=15437653426699527889&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-331198281812&psc=1"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/85197/ssd-kingston-a400-240gb-sata-leitura-500mb-s-gravacao-350mb-s-sa400s37-240g?gclid=Cj0KCQjwlK-WBhDjARIsAO2sErSuqFdNzXJ2jaf5c1lFFCEhZtg2DmjMJnAOuYuWQjpnbhmhk13mej4aAvcaEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://produto.mercadolivre.com.br/MLB-2719522613-hd-ssd-240gb-kingston-sa400s37240g-_JM?matt_tool=69304711&matt_word=&matt_source=google&matt_campaign_id=17296933323&matt_ad_group_id=137677359355&matt_match_type=&matt_network=g&matt_device=c&matt_creative=599002477321&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=506700808&matt_product_id=MLB2719522613&matt_product_partition_id=1414449658039&matt_target_id=aud-1454065849627:pla-1414449658039&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN1x-ghbsWDpkcefyL8SjR0TPAWii32D22rbb5dRerm6PPKPEzVT6pQaAlBJEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Fonte de alimentação</h3>
+            <p>Uma fonte para dar energia para o seu pc. <strong>Valor: R$ 129,90</strong></p>
+
+            <img src="../img/fonte-usuario.png" alt="ssd">
+
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/74800/fonte-aerocool-350w-vx-350-en57181?gclid=Cj0KCQjwlK-WBhDjARIsAO2sErRXbDyCWNa6PeTym-sBgeGY3WArThO39Va0iZJVHQeMFWTwm-TQovcaAtiREALw_wcB"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com.br/Fonte-Aerocool-Bivolt-VX-350-EN57181/dp/B0754JQGYD/ref=asc_df_B0754JQGYD/?tag=googleshopp00-20&linkCode=df0&hvadid=379787216792&hvpos=&hvnetw=g&hvrand=6171556134703283828&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-840178901964&psc=1"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.mercadolivre.com.br/fonte-de-alimentaco-para-pc-aerocool-advanced-technologies-vx-series-vx-350w-350w-black-230v/p/MLB8592174?matt_tool=57403934&matt_word=&matt_source=google&matt_campaign_id=17296933197&matt_ad_group_id=137677358555&matt_match_type=&matt_network=g&matt_device=c&matt_creative=599002477168&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=114474029&matt_product_id=MLB8592174-product&matt_product_partition_id=1636348405419&matt_target_id=aud-1454065849627:pla-1636348405419&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0BOCuXkWGsy1K9ULLPIMM6Kdk9xK5M78bkwwWasUS1b8KhFQmKay8aAs5fEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Gabinete de Computador</h3>
+            <p>Um ótimo gabinete para lgbtizar o seu quarto! <strong>Valor: R$ 189,99</strong></p>
+
+            <img src="../img/gabinete-usuario.png" alt="ssd">
+
+            <ul>
+              <li>
+                <a href="https://www.amazon.com.br/Gabinete-Gamer-BPC-C3147-Black-lateral/dp/B08S489GRJ/ref=asc_df_B08S489GRJ/?tag=googleshopp00-20&linkCode=df0&hvadid=379817895773&hvpos=&hvnetw=g&hvrand=8026104770784735277&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20090&hvtargid=pla-1700576873194&psc=1"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/268350/gabinete-gamer-brazilpc-bpc-c3147-black-c-lateral-de-vidro?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN1s2iXSPFoIRKmFmxZ2CiK6ggA-Jsq6JfyiRKIfX1XLYioc4qq7u1IaAhOIEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.americanas.com.br/produto/5268010058?epar=bp_pl_00_go_infacess_pmax_geral&opn=YSMESP&WT.srch=1&offerId=62a8d0cf2376eb9c7201cbb6&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN3qmBrcmeGP2jugePDIu416ssFt8JOBCgFCBaXDzVPZ51ZQF2yhNegaAho9EALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+
+            <h3>Valor total: R$ 1.359,85</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="simpleModal6" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn6">❌</span>
+          <h2>Segundo Usuário</h2>
+        </div>
+        <div class="modal-body">
+          <div class="modal-card">
+            <h3>Aqui um computador de até R$ 3000,00</h3>
+            <p>Este computador é destinado a pessoas que querem jogar casualmente, se divertir, fazer trabalhos e usar
+              alguns programas</p>
+          </div>
+          <div class="modal-card">
+            <h3>Placa mãe</h3>
+
+            <p>A Placa mãe é como o coração do computador. <strong>Valor: R$ 499,90</strong></p>
+
+            <img src="../img/placa-mae-user2.png" alt="placa mãe computador">
+
+            <p>Links:</p>
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/127870/placa-mae-gigabyte-a520m-h-amd-a520-matx-ddr4-rev-1-0-"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.americanas.com.br/produto/4043238393?epar=bp_pl_00_go_pcgamer_pmax_geral&opn=YSMESP&WT.srch=1&offerId=6155cadc09c351890d55af72&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN2DEJ9rw9NRT2c-pAAUudKDHLzk78mpRXb8A-slc-faUmT-1N0b1xgaAiYQEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.terabyteshop.com.br/produto/14923/placa-mae-gigabyte-amd-a520m-ds3h-ddr4-am4?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN3FrOA5JEVCdFTFr0x2stwMgrKycJXn6wY-pBCJTR5foinfsJ-BMRkaAjMvEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Processador</h3>
+            <p>O <strong>processador</strong> é um AMD intermediário, ótimo para usuários que estão a procura de algo
+              mais
+              avançado. <strong>Valor: R$
+                499,00</strong> </p>
+
+            <img src="../img/Processador-user2.png" alt="Processador para computador AMD" style="height: 400px;">
+
+            <p>Links: </p>
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/333155/processador-amd-ryzen-3-4100-cache-6mb-3-8ghz-4-0ghz-max-turbo-am4-sem-video-100-100000510box"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.americanas.com.br/produto/5270701747?epar=bp_pl_00_go_pcgamer_pmax_geral&opn=YSMESP&WT.srch=1&offerId=62ab86512376eb9c720c2bae&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN3Gw1lzxNOutgHCqGTspxAD3nmFSFyNJEuWUZAUScGCXiHkby774OwaAtIXEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.terabyteshop.com.br/produto/21014/ryzen-3-4100-cooler-wraith-stealth?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN1bVAf94L5cJoI__pSNsHLQupx9aKzRtibUehUwqr7_n0LHRlYociMaAukCEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Memória Ram</h3>
+            <p>Essa memória é uma das melhores em custo benefício. Possui uma alta taxa de MHz, 8GB de espaço, por um
+              preço baixo. <strong>Valor: R$ 219,99</strong></p>
+
+            <img src="../img/memoria-ram-usuario.png" alt="Memória ram">
+
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/229176/memoria-corsair-vengeance-lpx-8gb-3200mhz-ddr4-cl16-preta-cmk8gx4m1e3200c16"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pichau.com.br/memoria-corsair-vengeance-lpx-8gb-1x8gb-ddr4-3200mhz-c16-preto-cmk8gx4m1e3200c16"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.magazineluiza.com.br/memoria-corsair-vengeance-lpx-8gb-3200mhz-ddr4-cl16-preta-cmk8gx4m1e3200c16/p/dgegj0da85/in/mram/"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Placa de Vídeo</h3>
+            <p>Essa placa de vídeo é um bom começo para quem quer ter um desempenho em alguns jogos. <strong>Valor: R$
+                618,35</strong></p>
+
+            <img src="../img/Placa-de-video-user2.png" alt="Placa de vídeo" style="height: 400px;">
+
+            <ul>
+              <li>
+                <a href="https://www.submarino.com.br/produto/4769340012?epar=bp_pl_px_go_pmax_pcgamer_geral_gmv&opn=XMLGOOGLE&WT.srch=1&offerId=621fd9ded9f593c3e86403cb&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0i_faEjp9z-Uj64EFhi9v-9HQUDW3_OV9y4i06vUX6A3d6YtJxeisaApmgEALw_wcB"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.submarino.com.br/produto/4769340012?epar=bp_pl_px_go_pmax_pcgamer_geral_gmv&opn=XMLGOOGLE&WT.srch=1&offerId=621fd9ded9f593c3e86403cb&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0i_faEjp9z-Uj64EFhi9v-9HQUDW3_OV9y4i06vUX6A3d6YtJxeisaApmgEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/317941/placa-de-video-pcyes-nvidia-geforce-gt-730-4gb-gddr5-64-bits-pjgt7304gb64?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN2jSqnhEBINUozh-TObaCDZhAGfeqdNn9cnwQyYd5RLwWCNRWkRWsgaAtl0EALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>SSD</h3>
+            <p>Um SSD com pouco espaço, mas ótimo para desempenho, pois é mais rápido que um HD. <strong>Valor: R$
+                265,98</strong></p>
+
+            <img src="../img/ssd-user2.png" alt="ssd" style="height: 400px;">
+
+            <ul>
+              <li>
+                <a href="https://www.amazon.com.br/HD-SSD-KINGSTON-SA400S37-480GB/dp/B075BKXSCQ/ref=asc_df_B075BKXSCQ/?tag=googleshopp00-20&linkCode=df0&hvadid=379728522226&hvpos=&hvnetw=g&hvrand=7408810691569371641&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-800700096188&psc=1"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/85198/ssd-kingston-a400-480gb-sata-leitura-500mb-s-gravacao-450mb-s-sa400s37-480g?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0qsMx8iulnWyVM12QDi_U9E1ixU6xFo356EGrE5gOPztm--GQNgrgaAiw9EALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.americanas.com.br/produto/4241064603?epar=bp_pl_00_go_pcgamer_pmax_geral&opn=YSMESP&WT.srch=1&offerId=61781cdfd9fd6edeec935ea1&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0MJv0X4Zw4RVkpiHpWSBFURBwRtYLHakGlBUZu8aNPFNoZl4IIpvEaAtV5EALw_wcB&tamanho=2.5""
+              target=" _blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Fonte de alimentação</h3>
+            <p>Uma fonte para dar energia para o seu pc. <strong>Valor: R$ 455,00</strong></p>
+
+            <img src="../img/fonte-user2.png" alt="ssd" style="height: 400px;">
+
+            <ul>
+              <li>
+                <a href="https://www.pichau.com.br/fonte-corsair-cv-series-cv650-80-plus-bronze-650w-cp-9020236-br?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN13d6qNrulDg5r8_KjVH6ffdHx1FP9Cp5si5EgbkQc_CZW0ioOOkIEaAjYlEALw_wcB"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/357113/fonte-gamer-para-pc-corsair-cx650m-650w-atx-80-plus-bronze-semi-modular-preto-cp-9020221-na?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0s7z1qeSYNCLJTGaq-4tAzS_PLk58zrJIWWmGhNHOCp2UAwnJGu7caAsG0EALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.submarino.com.br/produto/5162496109?epar=bp_pl_px_go_pmax_infacess_geral_gmv&opn=XMLGOOGLE&WT.srch=1&offerId=628e57eed9f593c3e89f81d0&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0APZ1okBbAPrUr5mDYP9wX48WHMSqDI7xdq1w2c5XW8oIqGaGfGH4aAlvpEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Gabinete de Computador</h3>
+            <p>Um ótimo gabinete para lgbtizar o seu quarto! <strong>Valor: R$ 189,99</strong></p>
+
+            <img src="../img/gabinete-usuario.png" alt="ssd">
+
+            <ul>
+              <li>
+                <a href="https://www.amazon.com.br/Gabinete-Gamer-BPC-C3147-Black-lateral/dp/B08S489GRJ/ref=asc_df_B08S489GRJ/?tag=googleshopp00-20&linkCode=df0&hvadid=379817895773&hvpos=&hvnetw=g&hvrand=8026104770784735277&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20090&hvtargid=pla-1700576873194&psc=1"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/268350/gabinete-gamer-brazilpc-bpc-c3147-black-c-lateral-de-vidro?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN1s2iXSPFoIRKmFmxZ2CiK6ggA-Jsq6JfyiRKIfX1XLYioc4qq7u1IaAhOIEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.americanas.com.br/produto/5268010058?epar=bp_pl_00_go_infacess_pmax_geral&opn=YSMESP&WT.srch=1&offerId=62a8d0cf2376eb9c7201cbb6&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN3qmBrcmeGP2jugePDIu416ssFt8JOBCgFCBaXDzVPZ51ZQF2yhNegaAho9EALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+            <h3>Valor total: R$ 2.781,21</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="simpleModal7" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn7">❌</span>
+          <h2>Terceiro Usuário</h2>
+        </div>
+        <div class="modal-body">
+
+          <div class="modal-card">
+            <h3>Aqui um computador de até R$ 5000,00</h3>
+            <p>Este computador é destinado a pessoas que querem jogar com gráficos intermediários, se divertir, fazer
+              trabalhos e usar programas de forma pesada</p>
+          </div>
+
+          <div class="modal-card">
+            <h3>Placa mãe</h3>
+
+            <p>A Placa mãe é como o coração do computador. <strong>Valor: R$ 709,90</strong></p>
+
+            <img src="../img/placa-mae-user3.png" alt="placa mãe computador">
+
+            <p>Links:</p>
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/98076/placa-mae-gigabyte-b450m-ds3h-amd-matx-ddr4"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://produto.mercadolivre.com.br/MLB-2729413348-placa-me-gigabyte-b450m-ds3h-amd-para-am4-ryzen-athlon-nf-_JM?matt_tool=48336981&matt_word=&matt_source=google&matt_campaign_id=17296933368&matt_ad_group_id=137677367195&matt_match_type=&matt_network=g&matt_device=c&matt_creative=599002477852&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=585393369&matt_product_id=MLB2729413348&matt_product_partition_id=1634700637416&matt_target_id=aud-1695016871674:pla-1634700637416&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0pcvAr-2n7OGPzVJjNqpXoRyHsBdEwRYVEeLZkmq_Bu_fgKL1ISlMaApEtEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pichau.com.br/placa-mae-gigabyte-b450m-ds3h-v2-ddr4-socket-am4-chipset-amd-b450?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN3rDCcszqt54Tmi-ey_SLtxLAS07pXI0b8gB1gvTKb63PbBmemS6GcaAlvhEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Processador</h3>
+            <p>O <strong>processador</strong> é um AMD intermediário, ótimo para usuários que estão a procura de algo
+              mais
+              avançado. <strong>Valor: R$
+                1149,90</strong> </p>
+
+            <img src="../img/processador-user3.png" alt="Processador para computador AMD">
+
+            <p>Links: </p>
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/181088/processador-amd-ryzen-5-5600g-3-9ghz-4-4ghz-max-turbo-am4-video-integrado-6-nucleos-100-100000252box"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com.br/Processador-AMD-Ryzen-5600G-Stealth/dp/B092L9GF5N/ref=asc_df_B092L9GF5N/?tag=googleshopp00-20&linkCode=df0&hvadid=379739321983&hvpos=&hvnetw=g&hvrand=16603733828281165581&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-1250272768452&psc=1"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.terabyteshop.com.br/produto/18971/processador-amd-ryzen-5-5600g-39ghz-44ghz-turbo-6-cores-12-threads-cooler-wraith-stealth-am4-com-video-integrado-100-100000252box?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN160a4xaL0dttlORelMljCNItQ4m84cJR6p7Yl0GegeGM_YG9IcLZAaAmATEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Memória Ram</h3>
+            <p>Essa memória é uma das melhores em custo benefício. Possui uma alta taxa de MHz, 8GB de espaço, por um
+              preço baixo. <strong>Valor: R$ 219,99</strong></p>
+
+            <img src="../img/memoria-ram-usuario.png" alt="Memória ram">
+
+            <ul>
+              <li>
+                <a href="https://www.kabum.com.br/produto/229176/memoria-corsair-vengeance-lpx-8gb-3200mhz-ddr4-cl16-preta-cmk8gx4m1e3200c16"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pichau.com.br/memoria-corsair-vengeance-lpx-8gb-1x8gb-ddr4-3200mhz-c16-preto-cmk8gx4m1e3200c16"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.magazineluiza.com.br/memoria-corsair-vengeance-lpx-8gb-3200mhz-ddr4-cl16-preta-cmk8gx4m1e3200c16/p/dgegj0da85/in/mram/"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Placa de Vídeo</h3>
+            <p>Essa placa de vídeo é uma placa de entrada da nova geração, muito boa para jogar jogos novos com
+              qualidade
+              média. <strong>Valor: R$ 618,35</strong></p>
+
+            <img src="../img/Placa-de-video-user3.png" alt="Placa de vídeo" style="height: 400px;">
+
+            <ul>
+              <li>
+                <a href="https://www.pichau.com.br/placa-de-video-msi-geforce-gtx-1650-d6-ventus-xs-4gb-gddr6-128-bit-912-v809-3470?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN3cuZY9jnPa3SF2lavLgDakbCnfd9aywguKuwpWFrM873dntfuv_boaAmlWEALw_wcB"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com.br/MSI-GTX-1650-Ventus-XS/dp/B08GQ29HRP/ref=asc_df_B08GQ29HRP/?tag=googleshopp00-20&linkCode=df0&hvadid=379713335517&hvpos=&hvnetw=g&hvrand=3456667739011314200&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-970722212528&psc=1"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.mercadolivre.com.br/placa-de-video-nvidia-msi-ventus-xs-geforce-gtx-16-series-gtx-1650-geforce-gtx-1650-d6-ventus-xs-oc-oc-edition-4gb/p/MLB15995697?matt_tool=57403934&matt_word=&matt_source=google&matt_campaign_id=17296933197&matt_ad_group_id=137677358555&matt_match_type=&matt_network=g&matt_device=c&matt_creative=599002477168&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=258837181&matt_product_id=MLB15995697-product&matt_product_partition_id=1636348405419&matt_target_id=aud-1454065849627:pla-1636348405419&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN09uRF9uOHYZvHKKee3EqWcXDllV7fqm6HF-_W7Bbb-Bi-8YvaxzX8aAqhcEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>SSD</h3>
+            <p>Um SSD com espaço bom para armazenar jogos e suas coisas, ótimo para desempenho. <strong>Valor: R$
+                265,98</strong></p>
+
+            <img src="../img/ssd-user2.png" alt="ssd" style="height: 400px;">
+
+            <ul>
+              <li>
+                <a href="https://www.amazon.com.br/HD-SSD-KINGSTON-SA400S37-480GB/dp/B075BKXSCQ/ref=asc_df_B075BKXSCQ/?tag=googleshopp00-20&linkCode=df0&hvadid=379728522226&hvpos=&hvnetw=g&hvrand=7408810691569371641&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-800700096188&psc=1"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/85198/ssd-kingston-a400-480gb-sata-leitura-500mb-s-gravacao-450mb-s-sa400s37-480g?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0qsMx8iulnWyVM12QDi_U9E1ixU6xFo356EGrE5gOPztm--GQNgrgaAiw9EALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.americanas.com.br/produto/4241064603?epar=bp_pl_00_go_pcgamer_pmax_geral&opn=YSMESP&WT.srch=1&offerId=61781cdfd9fd6edeec935ea1&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0MJv0X4Zw4RVkpiHpWSBFURBwRtYLHakGlBUZu8aNPFNoZl4IIpvEaAtV5EALw_wcB&tamanho=2.5""
+              target=" _blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Fonte de alimentação</h3>
+            <p>Uma fonte para dar energia para o seu pc. <strong>Valor: R$ 455,00</strong></p>
+
+            <img src="../img/fonte-user2.png" alt="ssd" style="height: 400px;">
+
+            <ul>
+              <li>
+                <a href="https://www.pichau.com.br/fonte-corsair-cv-series-cv650-80-plus-bronze-650w-cp-9020236-br?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN13d6qNrulDg5r8_KjVH6ffdHx1FP9Cp5si5EgbkQc_CZW0ioOOkIEaAjYlEALw_wcB"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/357113/fonte-gamer-para-pc-corsair-cx650m-650w-atx-80-plus-bronze-semi-modular-preto-cp-9020221-na?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0s7z1qeSYNCLJTGaq-4tAzS_PLk58zrJIWWmGhNHOCp2UAwnJGu7caAsG0EALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.submarino.com.br/produto/5162496109?epar=bp_pl_px_go_pmax_infacess_geral_gmv&opn=XMLGOOGLE&WT.srch=1&offerId=628e57eed9f593c3e89f81d0&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN0APZ1okBbAPrUr5mDYP9wX48WHMSqDI7xdq1w2c5XW8oIqGaGfGH4aAlvpEALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h3>Gabinete de Computador</h3>
+            <p>Um ótimo gabinete para lgbtizar o seu quarto! <strong>Valor: R$ 189,99</strong></p>
+
+            <img src="../img/gabinete-usuario.png" alt="ssd">
+
+            <ul>
+              <li>
+                <a href="https://www.amazon.com.br/Gabinete-Gamer-BPC-C3147-Black-lateral/dp/B08S489GRJ/ref=asc_df_B08S489GRJ/?tag=googleshopp00-20&linkCode=df0&hvadid=379817895773&hvpos=&hvnetw=g&hvrand=8026104770784735277&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20090&hvtargid=pla-1700576873194&psc=1"
+                  target="_blank">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kabum.com.br/produto/268350/gabinete-gamer-brazilpc-bpc-c3147-black-c-lateral-de-vidro?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN1s2iXSPFoIRKmFmxZ2CiK6ggA-Jsq6JfyiRKIfX1XLYioc4qq7u1IaAhOIEALw_wcB"
+                  target="_blank">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a href="https://www.americanas.com.br/produto/5268010058?epar=bp_pl_00_go_infacess_pmax_geral&opn=YSMESP&WT.srch=1&offerId=62a8d0cf2376eb9c7201cbb6&gclid=Cj0KCQjw852XBhC6ARIsAJsFPN3qmBrcmeGP2jugePDIu416ssFt8JOBCgFCBaXDzVPZ51ZQF2yhNegaAho9EALw_wcB"
+                  target="_blank">
+                  Link 3
+                </a>
+              </li>
+            </ul>
+            <h3>Valor total: R$ 4.501,07</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <h2>USUÁRIOS</h2>
+  </section>
+
+  <footer id="contato">
+    <h2>Contato</h2>
+    <div class="espaco-form">
+      <form method="post">
+        <h3>Entre em contato</h3>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="Digite seu nome">
+
+        <label for="email">E-mail</label>
+        <input id="email" type="email" placeholder="Digite seu e-mail">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="" id="" cols="30" rows="5"></textarea>
+
+        <div>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Cancelar">
+        </div>
+      </form>
+
+      <div class="links">
+        <h4>Desenvolvedores</h4>
+        <a href="https://github.com/FillipyAGJ" target="_blank">Fillipy <img src="../img/GitHub-Mark.png"
+            alt="logo do github"></a>
+        <a href="https://github.com/joaobrbosa" target="_blank">João <img src="../img/GitHub-Mark.png"
+            alt="logo do github"></a>
+        <a href="https://github.com/sammluks" target="_blank">Samuel <img src="../img/GitHub-Mark.png" alt="logo do github"></a>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="../js/script.js"></script>
+  <script type="text/javascript" src="../js/scriptModal.js"></script>
+</body>
+
+</html>

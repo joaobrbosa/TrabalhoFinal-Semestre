@@ -1,0 +1,106 @@
+.button {
+  border:  0;
+}
+
+.button img {
+  transition: all 200ms ease-in-out;
+}
+
+.button img:hover {
+  cursor: pointer;
+}
+
+.modal-overlay{
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  overflow: scroll;
+  background-color: #f4f4f4;
+  margin: 5% auto;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.modal-content p {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.modal-content ul {
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+.modal-content tr, td, th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.modal-content a {
+  color: #000;
+}
+
+.modal-content a:hover {
+  color: #a5a5a5;
+}
+
+.modal-header h2, .modal-footer h3{
+  margin: 0;
+}
+
+.modal-header{
+  position: sticky;
+  top: 0;
+  background: #000000;
+  padding: 15px;
+  color: #fff;
+}
+
+.modal-body{
+  padding: 10px 20px;
+  height: 70vh;
+}
+
+.modal-card {
+  padding: 30px;
+  background-color: #fbfbfb;
+  margin: 30px 0;
+  box-shadow: 1px 1px 10px #a5a5a5;
+}
+
+.modal-card ul {
+  margin: 20px 50px;
+  list-style: none;
+}
+
+.closeBtn,
+.closeBtn2,
+.closeBtn3,
+.closeBtn4,
+.closeBtn5,
+.closeBtn6,
+.closeBtn7 {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+}
+
+.closeBtn:hover,.closeBtn:focus,
+.closeBtn2:hover,.closeBtn2:focus,
+.closeBtn3:hover,.closeBtn3:focus,
+.closeBtn4:hover,.closeBtn4:focus,
+.closeBtn5:hover,.closeBtn5:focus,
+.closeBtn6:hover,.closeBtn6:focus,
+.closeBtn7:hover,.closeBtn7:focus {
+  color: crimson;
+  text-decoration: none;
+  cursor:  pointer;
+}

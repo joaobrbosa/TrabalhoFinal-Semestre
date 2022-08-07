@@ -1,0 +1,19 @@
+#memorias {
+  height: 536px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #797979;
+}
+
+#memorias h2 {
+  color: #ffffff;
+}
+
+#memorias button {
+  height: 534px;
+}
+
+#memorias img {
+  height: 534px;
+}

@@ -1,0 +1,42 @@
+#sessao-computadores {
+  background-color: #3f3f3f;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blocos {
+  background-color: white;
+  width: 80%;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+.blocos p {
+  margin: 20px 0;
+  text-indent: 50px;
+  color: #3f3f3f;
+  line-height: 23px;
+}
+
+.blocos ul {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.blocos li {
+  margin: 15px 0;
+}
+
+.blocos a {
+  color: #35ff;
+}
+
+.blocos a:hover {
+  color: #8a8a8a;
+}
+
+.blocos h3 {
+  margin-top: 35px;
+}
